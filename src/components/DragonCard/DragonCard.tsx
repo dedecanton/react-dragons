@@ -8,7 +8,7 @@ import { ActionButton, ActionsContainer, Card, CardImage, CardTitle, InfoLink } 
 
 import DragonImage from "../../assets/dragon.png";
 import { useNavigate } from "react-router";
-import { DragonsContext } from "../../context/dragons-context";
+import { DragonsContext } from "../../contexts/dragons-context";
 
 type Props = {
   dragon: DragonType;

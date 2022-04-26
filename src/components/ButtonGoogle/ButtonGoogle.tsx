@@ -6,7 +6,7 @@ import { useSignInWithGoogle } from "react-firebase-hooks/auth";
 import { auth } from "../../firebase.config";
 
 import tw from "twin.macro";
-import { AuthContext } from "../../context/auth-context";
+import { AuthContext } from "../../contexts/auth-context";
 
 const Button = tw.button`
     my-2

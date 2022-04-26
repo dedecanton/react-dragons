@@ -18,7 +18,7 @@ import {
 } from "../common";
 
 // context
-import { FormsContext } from "../../context/forms-context";
+import { FormsContext } from "../../contexts/forms-context";
 
 // auth
 import { useCreateUserWithEmailAndPassword } from "react-firebase-hooks/auth";

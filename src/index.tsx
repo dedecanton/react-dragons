@@ -5,11 +5,11 @@ import React from "react";
 import App from "./App";
 import './index.css'
 
-import { AuthProvider } from "./context/auth-context";
+import { AuthProvider } from "./contexts/auth-context";
 
 import { createRoot } from "react-dom/client";
 import { GlobalStyles } from "twin.macro";
-import { DragonsProvider } from "./context/dragons-context";
+import { DragonsProvider } from "./contexts/dragons-context";
 const container = document.getElementById("root")!;
 const root = createRoot(container);
 root.render(

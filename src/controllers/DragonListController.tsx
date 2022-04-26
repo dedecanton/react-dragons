@@ -2,7 +2,7 @@
 /* eslint-disable react-hooks/exhaustive-deps */
 import React, { useContext, useEffect, useState } from "react";
 import Loading from "../components/Loading";
-import { DragonsContext } from "../context/dragons-context";
+import { DragonsContext } from "../contexts/dragons-context";
 import DragonListView from "../views/DragonListView";
 import useApi from "../hooks/useApi";
 import DragonType from "../types/DragonType";

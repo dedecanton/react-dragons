@@ -9,7 +9,7 @@ import {
   LogoutButton,
 } from "./Header.style";
 import LogoImage from "../../assets/logo.svg";
-import { AuthContext } from "../../context/auth-context";
+import { AuthContext } from "../../contexts/auth-context";
 
 function Header() {
   const { logout } = useContext(AuthContext);

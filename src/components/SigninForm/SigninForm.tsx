@@ -16,8 +16,8 @@ import {
 import ButtonGoogle from "../ButtonGoogle/ButtonGoogle";
 
 // Context
-import { FormsContext } from "../../context/forms-context";
-import { AuthContext } from "../../context/auth-context";
+import { FormsContext } from "../../contexts/forms-context";
+import { AuthContext } from "../../contexts/auth-context";
 
 // Form validation
 import { useForm } from "react-hook-form";

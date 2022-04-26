@@ -4,7 +4,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
 // contexts
-import { DragonsContext } from "../../context/dragons-context";
+import { DragonsContext } from "../../contexts/dragons-context";
 // types
 import DragonType from "../../types/DragonType";
 import DragonAddType from "../../types/DragonAddType";
