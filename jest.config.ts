@@ -6,10 +6,10 @@ const config: Config.InitialOptions = {
   setupFilesAfterEnv: ['<rootDir>/jest-setup.ts'],
   verbose: true,
   collectCoverageFrom: [
-    "**/view/**",
+    "**/views/**",
     "!**/node_modules/**",
     "!**/vendor/**",
-    "!**/view/**/index.ts"
+    "!**/views/**/index.ts"
   ],
   testEnvironment: 'jsdom',
   moduleNameMapper: {
