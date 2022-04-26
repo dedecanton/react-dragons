@@ -32,7 +32,7 @@ Vale salientar que para o sistema de autenticação foi utilizado o Firebase jun
 
 Tanto o formulário de login, quanto o de cadastro são validados com a combinação do React Hook Form e da biblioteca Yup. Com isso o usuário recebe um feedback se os campos preenchidos cumprem os requisitos, se a conta foi criada com sucesso e/ou se o email colocado já tem uma conta cadastrada. Caso o login seja realizado, o usuário é automaticamente redirecionado para a lista de dragões.
 
-
+- Vídeo: 
 https://user-images.githubusercontent.com/67431433/165098928-65dcbc17-5208-4fba-a3f4-13f04c6ff2ca.mp4
 
 
@@ -54,7 +54,7 @@ Vale salientar que logo abaixo do header tem uma barra de pesquisa, que a cada c
 
 Além disso, se nenhum dragão estiver cadastrado e/ou nenhum dragão corresponder ao filtro da barra de pesquisas, a mensagem "Nenhum dragão encontrado!” será exibida no lugar da lista.
 
-
+- Vídeo: 
 https://user-images.githubusercontent.com/67431433/165098983-c9c2ba81-a13f-4fcd-a1da-95338a24d373.mp4
 
 
@@ -81,7 +81,7 @@ Caso o formulário seja submetido (por meio da tecla *enter* ou clicando no bot�
 
 Por fim, há o botão “Voltar” que redireciona para a lista de dragões.
 
-
+- Vídeo: 
 https://user-images.githubusercontent.com/67431433/165099048-ca239d23-07cf-4e52-9a17-0b22d7746a8f.mp4
 
 
@@ -95,7 +95,7 @@ Caso o formulário seja submetido (por meio da tecla *enter* ou clicando no bot�
 
 Por fim, há o botão “Voltar” que redireciona para a lista de dragões.
 
-
+- Vídeo: 
 https://user-images.githubusercontent.com/67431433/165099181-7800d097-37bc-4784-857e-c5ff7a0061b9.mp4
 
 
@@ -115,7 +115,7 @@ Ao ser redirecionado para essa página, o usuário verá uma mensagem informando
 
 Essa tela será mostrada em momentos cuja a aplicação está carregando dados, como por exemplo na requisição da lista de dragões, ou nos detelhes de algum dragão específico.
 
-
+- Vídeo: 
 https://user-images.githubusercontent.com/67431433/165099219-876631d7-3e81-464a-9e1b-72c3e7bc55bd.mp4
 
 
