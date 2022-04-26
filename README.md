@@ -187,7 +187,9 @@ O primeiro acesso provavelmente demorará pelo fato de que a plataforma da herok
 "sleep mode" quando não há acessos recorrentes.
 
 Para acessar a aplicação, você pode utilizar as seguintes credenciais:
+
 - Email: sicredi@sicredi.com
+
 - Senha: sicredi2022
 
 
