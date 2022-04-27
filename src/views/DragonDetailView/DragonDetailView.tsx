@@ -35,7 +35,7 @@ const DragonPage = ({ dragon }: DragonDetailType) => {
         <DragonName>{dragon.name}</DragonName>
         <DragonDetails>
           <p>
-            <span>Data de registro: </span>
+            <span>Data de criação: </span>
             {date}
           </p>
           <p>
