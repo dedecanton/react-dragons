@@ -217,12 +217,12 @@ Para acessar a aplicação, você pode utilizar as seguintes credenciais:
 
 ## Como rodar o projeto
 
-1. Clonar repositório (git clone [https://github.com/dedecanton/desafio-front-dragon.git](https://github.com/dedecanton/desafio-front-dragon.git))
+1. Clonar repositório (git clone [https://andre_canton@bitbucket.org/andre_canton/react-dragons.git](https://andre_canton@bitbucket.org/andre_canton/react-dragons.git))
 2. Entrar na pasta do projeto
 3. Instalar as dependências ( rodar *npm i no terminal do projeto* )
 4. Criar arquivo .env no root do projeto, e configurar as variáveis de ambiente.
 5. Para rodar em ambiente de desenvolvimento, rode o script *npm run dev*
-6. Para rodar em ambiente de produção, rode o script *npm build, em seguida,* *npm start*
+6. Para rodar em ambiente de produção, rode o script *npm build, em seguida, npm start*
 
 ## Possível erro com login firebase
 
