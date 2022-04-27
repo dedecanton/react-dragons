@@ -1,10 +1,13 @@
 import React, { useContext, useState } from "react";
 import DragonType from "../../types/DragonType";
-import { ActionButton, ActionsContainer, Card, CardImage, CardTitle, InfoLink } from "./DragonCard.style";
-
-
-
-
+import {
+  ActionButton,
+  ActionsContainer,
+  Card,
+  CardImage,
+  CardTitle,
+  InfoLink,
+} from "./DragonCard.style";
 
 import DragonImage from "../../assets/dragon.png";
 import { useNavigate } from "react-router";
@@ -14,27 +17,25 @@ type Props = {
   dragon: DragonType;
 };
 
-
-
 const DragonCard = ({ dragon }: Props) => {
+  const [isDeleting, setIsDeleting] = useState(false);
 
-  const [isDeleting, setIsDeleting] = useState(false)
-
-  const { deleteDragon } = useContext(DragonsContext)
-  const navigate = useNavigate()
+  const { deleteDragon } = useContext(DragonsContext);
+  const navigate = useNavigate();
 
   const handleEdit = () => {
-    navigate(`/dragon/edit/${dragon.id}`)
-  }
+    navigate(`/dragon/edit/${dragon.id}`);
+  };
 
   const handleDelete = () => {
+    const delayToShowAnimation = 300;
 
-    setIsDeleting(true)
+    setIsDeleting(true);
     setTimeout(() => {
-      deleteDragon(dragon.id)
-      setIsDeleting(false)
-    },300)
-  }
+      deleteDragon(dragon.id);
+      setIsDeleting(false);
+    }, delayToShowAnimation);
+  };
 
   return (
     <Card isDeleting={isDeleting}>
@@ -45,10 +46,10 @@ const DragonCard = ({ dragon }: Props) => {
       </CardImage>
 
       <InfoLink to={`/dragon/${dragon.id}`}>Ver mais detalhes</InfoLink>
-      
+
       <ActionsContainer>
         <ActionButton onClick={handleEdit}>Editar</ActionButton>
-        <ActionButton onClick={handleDelete} >Deletar</ActionButton>
+        <ActionButton onClick={handleDelete}>Deletar</ActionButton>
       </ActionsContainer>
     </Card>
   );
