@@ -6,26 +6,28 @@ import AuthView from "../views/AuthView";
 const AuthController = () => {
   const [isExpanded, setExpanded] = useState(false);
   const [active, setActive] = useState("signin");
+  const delayToSwitchForm = 400;
+  const animationDuration = 1000;
 
   const playExpandingAnimation = () => {
     setExpanded(true);
     setTimeout(() => {
       setExpanded(false);
-    }, 1000);
+    }, animationDuration);
   };
 
   const switchToSignup = () => {
     playExpandingAnimation();
     setTimeout(() => {
       setActive("signup");
-    }, 400);
+    }, delayToSwitchForm);
   };
 
   const switchToSignin = () => {
     playExpandingAnimation();
     setTimeout(() => {
       setActive("signin");
-    }, 400);
+    }, delayToSwitchForm);
   };
 
   const contextValue = { switchToSignin, switchToSignup };
